@@ -1,0 +1,30 @@
+{
+  "name": "videojs-flash-captions",
+  "version": "1.0.0",
+  "description": "A VideoJS plugin for displaying closed captions via the flash onTextData event",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-phillips/videojs-flash-captions.git"
+  },
+  "keywords": [
+    "videojs",
+    "video-js",
+    "video.js",
+    "video",
+    "js",
+    "flash",
+    "closed",
+    "captions",
+    "caption",
+    "captions"
+  ],
+  "author": "Alex Phillips <ahp118@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-phillips/videojs-flash-captions/issues"
+  },
+  "homepage": "https://github.com/alex-phillips/videojs-flash-captions#readme",
+  "dependencies": {
+    "video.js": "^5.0.2"
+  }
+}

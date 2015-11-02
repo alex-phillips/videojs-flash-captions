@@ -1,0 +1,26 @@
+ .vjs-captions-button {
+  cursor: pointer;
+}
+.vjs-closed-caption-text {
+  position: absolute;
+  max-width: 80%;
+  padding: 5px;
+  bottom: 35px;
+  background: black;
+  left: 10%;
+  color: white;
+  font-size: 1.3em;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.video-js .vjs-control.vjs-captions-button:focus:before,
+.video-js .vjs-control.vjs-captions-button:hover:before,
+.video-js .vjs-control.vjs-captions-button:focus {
+  text-shadow: none;
+}
+.video-js .vjs-control.vjs-captions-button.active,
+.video-js .vjs-control.vjs-captions-button.active:focus:before,
+.video-js .vjs-control.vjs-captions-button.active:hover:before,
+.video-js .vjs-control.vjs-captions-button.active:focus {
+  text-shadow: 0 0 1em #fff;
+}
