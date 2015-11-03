@@ -30,5 +30,6 @@
   ],
   "dependencies": {
     "video.js": "~5.1.0"
-  }
+  },
+  "moduleType": []
 }
