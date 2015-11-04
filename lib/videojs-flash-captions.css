@@ -18,18 +18,19 @@
   font-size: 1.3em;
   line-height: 1.5;
   overflow: hidden;
+  z-index: 1;
 }
 .caption-text-container {
   padding: 5px;
 }
-.video-js .vjs-control.vjs-captions-button:focus:before,
-.video-js .vjs-control.vjs-captions-button:hover:before,
-.video-js .vjs-control.vjs-captions-button:focus {
+.video-js .vjs-control.vjs-flash-captions-button:focus:before,
+.video-js .vjs-control.vjs-flash-captions-button:hover:before,
+.video-js .vjs-control.vjs-flash-captions-button:focus {
   text-shadow: none;
 }
-.video-js .vjs-control.vjs-captions-button.active,
-.video-js .vjs-control.vjs-captions-button.active:focus:before,
-.video-js .vjs-control.vjs-captions-button.active:hover:before,
-.video-js .vjs-control.vjs-captions-button.active:focus {
+.video-js .vjs-control.vjs-flash-captions-button.active,
+.video-js .vjs-control.vjs-flash-captions-button.active:focus:before,
+.video-js .vjs-control.vjs-flash-captions-button.active:hover:before,
+.video-js .vjs-control.vjs-flash-captions-button.active:focus {
   text-shadow: 0 0 1em #fff;
 }
