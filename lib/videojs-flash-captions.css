@@ -1,5 +1,12 @@
-.vjs-captions-button {
+.vjs-flash-captions-button {
   cursor: pointer;
+  font-family: VideoJS;
+  font-weight: normal;
+  font-style: normal;
+  border-right: 1px solid #cccccc;
+}
+.vjs-flash-captions-button:before {
+  content: "";
 }
 .vjs-closed-caption-text {
   position: absolute;
@@ -12,7 +19,7 @@
   line-height: 1.5;
   overflow: hidden;
 }
-.caption-text-container{
+.caption-text-container {
   padding: 5px;
 }
 .video-js .vjs-control.vjs-captions-button:focus:before,
