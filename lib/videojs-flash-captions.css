@@ -4,6 +4,7 @@
   font-weight: normal;
   font-style: normal;
   border-right: 1px solid #cccccc;
+  display: none;
 }
 .vjs-flash-captions-button:before {
   content: "";
@@ -19,6 +20,7 @@
   line-height: 1.5;
   overflow: hidden;
   z-index: 1;
+  opacity: 0.75;
 }
 .caption-text-container {
   padding: 0;
@@ -33,4 +35,7 @@
 .video-js .vjs-control.vjs-flash-captions-button.active:hover:before,
 .video-js .vjs-control.vjs-flash-captions-button.active:focus {
   text-shadow: 0 0 1em #fff;
+}
+.video-js .vjs-control.vjs-flash-captions-button.flash-captions-available {
+  display: block;
 }
